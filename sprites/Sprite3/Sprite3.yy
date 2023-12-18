@@ -3,7 +3,7 @@
   "resourceVersion": "1.0",
   "name": "Sprite3",
   "bbox_bottom": 63,
-  "bbox_left": 8,
+  "bbox_left": 6,
   "bbox_right": 55,
   "bbox_top": 4,
   "bboxMode": 0,
