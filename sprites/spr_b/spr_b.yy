@@ -4,7 +4,7 @@
   "name": "spr_b",
   "bbox_bottom": 38,
   "bbox_left": 23,
-  "bbox_right": 36,
+  "bbox_right": 57,
   "bbox_top": 24,
   "bboxMode": 0,
   "collisionKind": 1,
