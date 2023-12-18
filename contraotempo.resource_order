@@ -17,6 +17,7 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
-    {"name":"spr_b","order":1,"path":"sprites/spr_b/spr_b.yy",},
+    {"name":"spr_tonhg","order":1,"path":"sprites/spr_tonhg/spr_tonhg.yy",},
+    {"name":"Sprite3","order":2,"path":"sprites/Sprite3/Sprite3.yy",},
   ],
 }

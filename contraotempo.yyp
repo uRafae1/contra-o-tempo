@@ -35,7 +35,8 @@
   },
   "resources": [
     {"id":{"name":"spr_a","path":"sprites/spr_a/spr_a.yy",},},
-    {"id":{"name":"spr_b","path":"sprites/spr_b/spr_b.yy",},},
+    {"id":{"name":"spr_tonhg","path":"sprites/spr_tonhg/spr_tonhg.yy",},},
+    {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
