@@ -7,19 +7,17 @@
   "inheritCreationOrder": false,
   "inheritLayers": false,
   "instanceCreationOrder": [
-    {"name":"inst_4DA9BCE3","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_7DF69864","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_36890A09","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_7826E582","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_6E11F73F","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_7A53ADC2","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_1BBD97D5","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_4DA9BCE3","path":"rooms/Room1/Room1.yy",},
   ],
   "isDnd": false,
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Controles","depth":0,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":10,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7DF69864","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_gameHistoria","path":"objects/obj_gameHistoria/obj_gameHistoria.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_36890A09","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_gameDecisaoAceitar","path":"objects/obj_gameDecisaoAceitar/obj_gameDecisaoAceitar.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":48.0,"y":90.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7826E582","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_gameDecisaoAceitar","path":"objects/obj_gameDecisaoAceitar/obj_gameDecisaoAceitar.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":128.0,"y":90.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6E11F73F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_gameDecisaoAceitar","path":"objects/obj_gameDecisaoAceitar/obj_gameDecisaoAceitar.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":208.0,"y":90.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7A53ADC2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_gameDecisaoAceitar","path":"objects/obj_gameDecisaoAceitar/obj_gameDecisaoAceitar.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":208.0,"y":90.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1BBD97D5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_gameDecisaoRecusar","path":"objects/obj_gameDecisaoRecusar/obj_gameDecisaoRecusar.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":48.0,"y":90.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":100,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":4,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4DA9BCE3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_cartaBase","path":"objects/obj_cartaBase/obj_cartaBase.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":128.0,"y":44.0,},
