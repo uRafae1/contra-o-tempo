@@ -19,6 +19,7 @@
   "ResourceOrderSettings": [
     {"name":"spr_c","order":3,"path":"sprites/spr_c/spr_c.yy",},
     {"name":"spr_tonhg","order":1,"path":"sprites/spr_tonhg/spr_tonhg.yy",},
+    {"name":"spr_d","order":4,"path":"sprites/spr_d/spr_d.yy",},
     {"name":"Sprite3","order":2,"path":"sprites/Sprite3/Sprite3.yy",},
   ],
 }
