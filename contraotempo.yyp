@@ -34,7 +34,7 @@
     "IDEVersion": "2023.11.1.129",
   },
   "resources": [
-    {"id":{"name":"spr_aa","path":"sprites/spr_aa/spr_aa.yy",},},
+    {"id":{"name":"spr_a","path":"sprites/spr_a/spr_a.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
