@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "persGuse",
+  "name": "personagensProtagonistas",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {

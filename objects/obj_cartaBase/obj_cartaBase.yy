@@ -10,8 +10,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Cartas",
+    "path": "folders/Objects/Cartas.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -27,7 +27,9 @@
   "physicsShape": 1,
   "physicsShapePoints": [],
   "physicsStartAwake": true,
-  "properties": [],
+  "properties": [
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"personagem","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"global.persJaha","varType":4,},
+  ],
   "solid": false,
   "spriteId": {
     "name": "spr_cartaBase",
