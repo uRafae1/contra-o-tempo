@@ -26,6 +26,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Sprites.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Protagonistas","folderPath":"folders/Sprites/Protagonistas.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
@@ -34,10 +35,11 @@
     "IDEVersion": "2023.11.1.129",
   },
   "resources": [
-    {"id":{"name":"spr_c","path":"sprites/spr_c/spr_c.yy",},},
-    {"id":{"name":"spr_a","path":"sprites/spr_a/spr_a.yy",},},
-    {"id":{"name":"spr_tonhg","path":"sprites/spr_tonhg/spr_tonhg.yy",},},
-    {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},},
+    {"id":{"name":"spr_ministro","path":"sprites/spr_ministro/spr_ministro.yy",},},
+    {"id":{"name":"spr_tesoureiro","path":"sprites/spr_tesoureiro/spr_tesoureiro.yy",},},
+    {"id":{"name":"spr_fazendeiro","path":"sprites/spr_fazendeiro/spr_fazendeiro.yy",},},
+    {"id":{"name":"spr_chanceler","path":"sprites/spr_chanceler/spr_chanceler.yy",},},
+    {"id":{"name":"spr_rei","path":"sprites/spr_rei/spr_rei.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [

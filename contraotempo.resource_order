@@ -15,10 +15,12 @@
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
+    {"name":"Protagonistas","order":1,"path":"folders/Sprites/Protagonistas.yy",},
   ],
   "ResourceOrderSettings": [
-    {"name":"spr_c","order":3,"path":"sprites/spr_c/spr_c.yy",},
-    {"name":"spr_tonhg","order":1,"path":"sprites/spr_tonhg/spr_tonhg.yy",},
-    {"name":"Sprite3","order":2,"path":"sprites/Sprite3/Sprite3.yy",},
+    {"name":"spr_ministro","order":3,"path":"sprites/spr_ministro/spr_ministro.yy",},
+    {"name":"spr_tesoureiro","order":2,"path":"sprites/spr_tesoureiro/spr_tesoureiro.yy",},
+    {"name":"spr_fazendeiro","order":4,"path":"sprites/spr_fazendeiro/spr_fazendeiro.yy",},
+    {"name":"spr_rei","order":1,"path":"sprites/spr_rei/spr_rei.yy",},
   ],
 }
