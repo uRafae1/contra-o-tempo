@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "personagensProtagonistas",
+  "name": "scritpsJaha",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {

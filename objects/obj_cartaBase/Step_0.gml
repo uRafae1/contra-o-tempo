@@ -12,3 +12,9 @@ if (image_xscale > -1) {
 	}
 }
 
+if (global.opcaoDialogo != 0) {
+	script_execute(cartaScript);
+	instance_destroy(obj_gameDecisao);
+	instance_destroy(obj_gameDialogo);
+	instance_destroy();
+}
