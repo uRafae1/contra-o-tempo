@@ -8,8 +8,7 @@ if (image_xscale > -1) {
 } else {
 	if (!instance_exists(obj_gameDialogo)) {
 		var _dialogo = instance_create_layer(0, 0, layer, obj_gameDialogo);
-		_dialogo.texto = personagem.dialogos[diagSelecionado][0];
-		array_delete(personagem.dialogos, diagSelecionado, 1);
+		_dialogo.texto = cartaTexto;
 	}
 }
 

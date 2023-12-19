@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_gameDecisaoAceitar",
+  "name": "obj_gameDecisao",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":10,"eventType":6,"isDnD":false,},
@@ -13,8 +13,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Controles",
-    "path": "folders/Objects/Controles.yy",
+    "name": "Cartas",
+    "path": "folders/Objects/Cartas.yy",
   },
   "parentObjectId": null,
   "persistent": false,
