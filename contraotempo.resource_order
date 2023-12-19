@@ -20,6 +20,7 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"scritpsJaha","order":2,"path":"scripts/scritpsJaha/scritpsJaha.yy",},
     {"name":"spr_guiStatus","order":6,"path":"sprites/spr_guiStatus/spr_guiStatus.yy",},
     {"name":"obj_gameDecisao","order":2,"path":"objects/obj_gameDecisao/obj_gameDecisao.yy",},
     {"name":"init","order":1,"path":"scripts/init/init.yy",},

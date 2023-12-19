@@ -1,5 +1,5 @@
 
-draw_sprite_ext(cartaSprite, 0, x, y - 9, image_xscale, image_yscale, 0, c_white, 1);
+draw_sprite_ext(spr_personagens, cartaSprite, x, y - 9, image_xscale, image_yscale, 0, c_white, 1);
 draw_self();
 
 if (image_xscale = -1) {

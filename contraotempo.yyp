@@ -37,6 +37,7 @@
     "IDEVersion": "2023.11.1.129",
   },
   "resources": [
+    {"id":{"name":"scritpsJaha","path":"scripts/scritpsJaha/scritpsJaha.yy",},},
     {"id":{"name":"spr_guiStatus","path":"sprites/spr_guiStatus/spr_guiStatus.yy",},},
     {"id":{"name":"font_pixels","path":"fonts/font_pixels/font_pixels.yy",},},
     {"id":{"name":"obj_gameDecisao","path":"objects/obj_gameDecisao/obj_gameDecisao.yy",},},
@@ -44,9 +45,8 @@
     {"id":{"name":"spr_cartaBase","path":"sprites/spr_cartaBase/spr_cartaBase.yy",},},
     {"id":{"name":"obj_cartaBase","path":"objects/obj_cartaBase/obj_cartaBase.yy",},},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
-    {"id":{"name":"spr_personagem","path":"sprites/spr_personagem/spr_personagem.yy",},},
+    {"id":{"name":"spr_personagens","path":"sprites/spr_personagens/spr_personagens.yy",},},
     {"id":{"name":"obj_gameHistoria","path":"objects/obj_gameHistoria/obj_gameHistoria.yy",},},
-    {"id":{"name":"personagensProtagonistas","path":"scripts/personagensProtagonistas/personagensProtagonistas.yy",},},
     {"id":{"name":"obj_controleCartas","path":"objects/obj_controleCartas/obj_controleCartas.yy",},},
     {"id":{"name":"obj_gameDialogo","path":"objects/obj_gameDialogo/obj_gameDialogo.yy",},},
     {"id":{"name":"obj_gameControleCartas","path":"objects/obj_gameControleCartas/obj_gameControleCartas.yy",},},
