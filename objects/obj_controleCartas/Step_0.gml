@@ -6,7 +6,7 @@ if (!instance_exists(obj_cartaBase)) {
 	
 	// Seleciona a carta aleatóriamente
 	randomize();
-	var _personagem = irandom_range(1, 1);
+	var _personagem = choose(personagens.DIONI, personagens.JAHA);
 	
 	// Cria a carta
 	var _carta = instance_create_layer(128, 44, "Instances", obj_cartaBase);

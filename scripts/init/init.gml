@@ -1,8 +1,13 @@
 
-global.dinheiro = 100;
-global.comida = 100;
-global.tecnologia = 10;
-global.respeito = 100;
+global.dinheiro = 60;
+global.comida = 60;
+global.tecnologia = 60;
+global.respeito = 60;
+
+global.addDinheiro = 0;
+global.addComida = 0;
+global.addTecnologia = 0;
+global.addRespeito = 0;
 
 global.pontoHorrivel = 0;
 global.pontoRuim = 0;
