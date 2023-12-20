@@ -1,10 +1,13 @@
 
-if (string_length(texto) > 12) {
+if (string_length(texto) > 10) {
 	image_xscale = 1.2;
 	image_yscale = 1.3;
 	if (string_length(texto) > 18){
 		image_yscale = 1.7;
-	} 
+	}
+	if (string_length(texto) > 25) {
+		image_yscale = 2.2;
+	}
 	
 }
 
