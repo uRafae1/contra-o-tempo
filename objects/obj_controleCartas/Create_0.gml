@@ -102,6 +102,52 @@ cartaScript[4, personagens.DIONI] = scrDioni5;
 
 #endregion
 
+#region Cartas do Cleitão, o guerreiro
+
+cartaSprite[0, personagens.CLEITAO] = personagens.CLEITAO;
+cartaTexto[0, personagens.CLEITAO] = "Senhor, nossas defesas são muito fracas. Devemos investir em novas armas e armaduras para nosso exército.";
+cartaNome[0, personagens.CLEITAO] = "Cleitão, o guerreiro";
+cartaOpc1[0, personagens.CLEITAO] = "Crie as armas";
+cartaOpc2[0, personagens.CLEITAO] = "Deixe como está";
+cartaScript[0, personagens.CLEITAO] = scrCleitao1;
+
+cartaSprite[1, personagens.CLEITAO] = personagens.CLEITAO;
+cartaTexto[1, personagens.CLEITAO] = "Senhor, nós temos armas, agora devemos treinar para ficarmos prontos para qualquer embate. Sugiro criarmos uma arena para gladiadores batalharem.";
+cartaNome[1, personagens.CLEITAO] = "Cleitão, o guerreiro";
+cartaOpc1[1, personagens.CLEITAO] = "Vamos à luta!";
+cartaOpc2[1, personagens.CLEITAO] = "Guarde-as para outra ocasião";
+cartaScript[1, personagens.CLEITAO] = scrCleitao2;
+
+cartaSprite[2, personagens.CLEITAO] = personagens.CLEITAO;
+cartaTexto[2, personagens.CLEITAO] = "Senhor, nosso exército está totalmente armado e treinado. Não devemos desperciçar esse potencial, vamos expandir nosso reino.";
+cartaNome[2, personagens.CLEITAO] = "Cleitão, o guerreiro";
+cartaOpc1[2, personagens.CLEITAO] = "Vamos expandir!";
+cartaOpc2[2, personagens.CLEITAO] = "Evitaremos conflitos";
+cartaScript[2, personagens.CLEITAO] = scrCleitao3;
+
+cartaSprite[3, personagens.CLEITAO] = personagens.ARTHUR;
+cartaTexto[3, personagens.CLEITAO] = "Meu rei o que está acontecendo? Nosso exército está extremamente poderoso, está assustando o povo.";
+cartaNome[3, personagens.CLEITAO] = "Arthur, a criança";
+cartaOpc1[3, personagens.CLEITAO] = "São novos tempos";
+cartaOpc2[3, personagens.CLEITAO] = "Tentarei acalmá-los";
+cartaScript[3, personagens.CLEITAO] = scrCleitao4;
+
+cartaSprite[4, personagens.CLEITAO] = personagens.CLEITAO;
+cartaTexto[4, personagens.CLEITAO] = "Senhor, nós somos implacáveis juntos! Infelizmente sua doença só atrasará nosso império.";
+cartaNome[4, personagens.CLEITAO] = "Cleitão, o chefe de guerra";
+cartaOpc1[4, personagens.CLEITAO] = "O que quer dizer?";
+cartaOpc2[4, personagens.CLEITAO] = "Como assim?";
+cartaScript[4, personagens.CLEITAO] = scrCleitao5;
+
+cartaSprite[5, personagens.CLEITAO] = personagens.CLEITAOREI;
+cartaTexto[5, personagens.CLEITAO] = "Seus esforços foram muito úteis para nosso reino. Você será lembrado como o \"Primeiro Conquistador\".";
+cartaNome[5, personagens.CLEITAO] = "Cleitão, o imperador";
+cartaOpc1[5, personagens.CLEITAO] = "...";
+cartaOpc2[5, personagens.CLEITAO] = "...";
+cartaScript[5, personagens.CLEITAO] = scrCleitao6;
+
+#endregion
+
 
 
 
