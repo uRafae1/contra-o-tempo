@@ -17,7 +17,7 @@ global.pontoOk = 0;
 global.pontoBom = 0;
 global.pontoPerfeito = 0;
 
-global.lvlPersonagens = array_create(20);
+global.lvlPersonagens = array_create(11);
 
 global.opcaoDialogo = 0;
 
@@ -35,8 +35,10 @@ enum personagens {
 	TANYA = 10,			// Tanya, a andarilha
 	
 	REIFANTASMA = 11,	// Final Perfeito
-	ARTHURREI = 12,		// Final Bom
+	ARTHURREI = 12,		// Final Bom I
 	DIONIBEBADO = 13,	// Final Ruim
-	CLEITAOREI = 14		// Final Horrível
+	CLEITAOREI = 14,	// Final Horrível
+	CIANE = 15,
+	CIANERAINHA = 16	// Final Bom II
 	
 }

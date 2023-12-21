@@ -13,15 +13,15 @@ draw_text_transformed(30, 20, "Dinheiro", _escala, _escala, 0);
 
 draw_healthbar(75 - _largura, 20, 75 + _largura, 20 + _altura, global.comida, #332E28, c_red, c_lime, 0, 1, 0);
 draw_sprite(spr_barraRecursos, 0, 75, 25);
-draw_text_transformed(75, 20, "COMIDA", _escala, _escala, 0);
+draw_text_transformed(75, 20, "Comida", _escala, _escala, 0);
 
 draw_healthbar(room_width - 30 - _largura, 20, room_width - 30 + _largura, 20 + _altura, global.reino, #332E28, c_red, c_lime, 0, 1, 0);
 draw_sprite(spr_barraRecursos, 0, room_width - 30, 25);
-draw_text_transformed(room_width - 30, 20, "REINO", _escala, _escala, 0);
+draw_text_transformed(room_width - 30, 20, "Reino", _escala, _escala, 0);
 
 draw_healthbar(room_width - 75 - _largura, 20, room_width - 75 + _largura, 20 + _altura, global.respeito, #332E28, c_red, c_lime, 0, 1, 0);
 draw_sprite(spr_barraRecursos, 0, room_width - 75, 25);
-draw_text_transformed(room_width - 75, 20, "RESPEITO", _escala, _escala, 0);
+draw_text_transformed(room_width - 75, 20, "Respeito", _escala, _escala, 0);
 
 draw_set_font(-1);
 draw_set_valign(-1);
