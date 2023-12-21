@@ -55,7 +55,6 @@
     {"id":{"name":"spr_barraRecursos","path":"sprites/spr_barraRecursos/spr_barraRecursos.yy",},},
     {"id":{"name":"scritpsDioni","path":"scripts/scritpsDioni/scritpsDioni.yy",},},
     {"id":{"name":"obj_gameDialogo","path":"objects/obj_gameDialogo/obj_gameDialogo.yy",},},
-    {"id":{"name":"obj_gameControleCartas","path":"objects/obj_gameControleCartas/obj_gameControleCartas.yy",},},
     {"id":{"name":"scritpsTobi","path":"scripts/scritpsTobi/scritpsTobi.yy",},},
     {"id":{"name":"spr_opcDecisoes","path":"sprites/spr_opcDecisoes/spr_opcDecisoes.yy",},},
     {"id":{"name":"scritpsMorgan","path":"scripts/scritpsMorgan/scritpsMorgan.yy",},},
