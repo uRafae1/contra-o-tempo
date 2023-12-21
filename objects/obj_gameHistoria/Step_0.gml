@@ -21,13 +21,11 @@ if (global.addRespeito != 0) {
 
 if (tempo > 0 && instance_exists(obj_gameDialogo)) {
 	if (obj_gameDialogo.indice >= string_length(obj_gameDialogo.texto)) {
-		if (temporizador) {
-			temporizador--;
-		} else {
+		if(tempo) {
 			tempo--;
-			temporizador = roomSpeed;
 		}
 	}
+	
 } else if (tempo <= 0) {
 	global.opcaoDialogo = 3;
 }

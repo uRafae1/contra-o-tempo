@@ -4,6 +4,7 @@ cartaOpcaoAtual = 0;
 escolhaAtual = 0;
 
 #region Cartas do Jaha, o chanceler
+
 cartaSprite[0, personagens.JAHA] = personagens.JAHA;
 cartaTexto[0, personagens.JAHA] = "Aceitaria uma xícara de café? Para começar o ano bem meu senhor.";
 cartaNome[0, personagens.JAHA] = "Jaha, o chanceler";
@@ -58,15 +59,65 @@ cartaTempo[0, personagens.GORDON] = 8;
 
 #endregion
 
-#region Cartas do Charles, o ministro
+#region Cartas do Morgan, o ministro
 
-cartaSprite[0, personagens.CHARLES] = personagens.CHARLES;
-cartaTexto[0, personagens.CHARLES] = "Senhor em casos de crise, devemos priorizar a economia ou o povo?";
-cartaNome[0, personagens.CHARLES] = "Charles, o ministro";
-cartaOpc1[0, personagens.CHARLES] = "Economia";
-cartaOpc2[0, personagens.CHARLES] = "Povo";
-cartaScript[0, personagens.CHARLES] = noone;
-cartaTempo[0, personagens.CHARLES] = 8;
+cartaSprite[0, personagens.MORGAN] = personagens.MORGAN;
+cartaTexto[0, personagens.MORGAN] = "Senhor em casos de crise, devemos priorizar a economia ou o povo?";
+cartaNome[0, personagens.MORGAN] = "Morgan, o ministro";
+cartaOpc1[0, personagens.MORGAN] = "Economia";
+cartaOpc2[0, personagens.MORGAN] = "Povo";
+cartaScript[0, personagens.MORGAN] = scrMorgan1;
+cartaTempo[0, personagens.MORGAN] = 8;
+
+cartaSprite[1, personagens.MORGAN] = personagens.MORGAN;
+cartaTexto[1, personagens.MORGAN] = "Senhor, posso começar a procurar um herdeiro para o senhor?";
+cartaNome[1, personagens.MORGAN] = "Morgan, o ministro";
+cartaOpc1[1, personagens.MORGAN] = "Sim.";
+cartaOpc2[1, personagens.MORGAN] = "Não preciso de herdeiro.";
+cartaScript[1, personagens.MORGAN] = scrMorgan2;
+cartaTempo[1, personagens.MORGAN] = 8;
+
+cartaSprite[2, personagens.MORGAN] = personagens.MORGAN;
+cartaTexto[2, personagens.MORGAN] = "Senhor, estamos atrás de candidatos para seguir seu legado, podemos continuar?";
+cartaNome[2, personagens.MORGAN] = "Morgan, o ministro";
+cartaOpc1[2, personagens.MORGAN] = "Sim.";
+cartaOpc2[2, personagens.MORGAN] = "Não.";
+cartaScript[2, personagens.MORGAN] = scrMorgan3;
+cartaTempo[2, personagens.MORGAN] = 8;
+
+cartaSprite[3, personagens.MORGAN] = personagens.MORGAN;
+cartaTexto[3, personagens.MORGAN] = "Alteza, achamos vários candidatos, podemos seguir?";
+cartaNome[3, personagens.MORGAN] = "Morgan, o ministro";
+cartaOpc1[3, personagens.MORGAN] = "Sim.";
+cartaOpc2[3, personagens.MORGAN] = "Não.";
+cartaScript[3, personagens.MORGAN] = scrMorgan4;
+cartaTempo[3, personagens.MORGAN] = 8;
+
+cartaSprite[4, personagens.MORGAN] = personagens.MORGAN;
+cartaTexto[4, personagens.MORGAN] = "Senhor, encontramos 2 candidatos. Escolha entre eles. Arthur, a Criança ou Cleitão, o Guerreiro. ";
+cartaNome[4, personagens.MORGAN] = "Morgan, o ministro";
+cartaOpc1[4, personagens.MORGAN] = "Arthur, a Criança.";
+cartaOpc2[4, personagens.MORGAN] = "Cleitão, o Guerreiro.";
+cartaScript[4, personagens.MORGAN] = scrMorgan5;
+cartaTempo[4, personagens.MORGAN] = 8;
+
+cartaSprite[5, personagens.MORGAN] = personagens.ARTHURREI;
+cartaTexto[5, personagens.MORGAN] = "Obrigado meu rei, vou fazer de tudo para dar o meu melhor por este reino. Você não irá se arrepender";
+cartaNome[5, personagens.MORGAN] = "Arthur, a criança";
+cartaOpc1[5, personagens.MORGAN] = "Você será um ótimo rei.";
+cartaOpc2[5, personagens.MORGAN] = "Você será um ótimo rei.";
+cartaScript[5, personagens.MORGAN] = scrMorgan6;
+cartaTempo[5, personagens.MORGAN] = 8;
+
+cartaSprite[6, personagens.MORGAN] = personagens.CLEITAOREI;
+cartaTexto[6, personagens.MORGAN] = "Seus esforços foram muito úteis para nosso reino. Você deixou em boas mãos. >:D";
+cartaNome[6, personagens.MORGAN] = "Cleiton, o guerreiro";
+cartaOpc1[6, personagens.MORGAN] = "...";
+cartaOpc2[6, personagens.MORGAN] = "...";
+cartaScript[6, personagens.MORGAN] = scrMorgan7;
+cartaTempo[6, personagens.MORGAN] = 8;
+
+
 
 #endregion
 
@@ -166,7 +217,93 @@ cartaTempo[5, personagens.CLEITAO] = 8;
 
 #endregion
 
+#region Tobi, o Ferreiro
 
+cartaSprite[0, personagens.TOBI] = personagens.TOBI;
+cartaTexto[0, personagens.TOBI] = "Rei, eu tenho uma ótima notícia! Eu descobri uma nova forma de forjar o metal, que o torna mais resistente e durável. Posso usar esse metal?";
+cartaNome[0, personagens.TOBI] = "Tobi, o ferreiro";
+cartaOpc1[0, personagens.TOBI] = "Fique a vontade";
+cartaOpc2[0, personagens.TOBI] = "Isso é falso";
+cartaScript[0, personagens.TOBI] = scrTobi1;
+cartaTempo[0, personagens.TOBI] = 8;
+
+cartaSprite[1, personagens.TOBI] = personagens.TOBI;
+cartaTexto[1, personagens.TOBI] = "Olá Rei, queria sugerir que o senhor investisse a melhoração de nossas picaretas.";
+cartaNome[1, personagens.TOBI] = "Tobi, o ferreiro";
+cartaOpc1[1, personagens.TOBI] = "Boa ideia, irei investir.";
+cartaOpc2[1, personagens.TOBI] = "Não temos grana!";
+cartaScript[1, personagens.TOBI] = scrTobi2;
+cartaTempo[1, personagens.TOBI] = 8;
+
+cartaSprite[2, personagens.TOBI] = personagens.TOBI;
+cartaTexto[2, personagens.TOBI] = "Veio em nomes dos mineradores, ter a permissão e investimento para irmos atrás de minérios fora do reino.";
+cartaNome[2, personagens.TOBI] = "Tobi, o ferreiro";
+cartaOpc1[2, personagens.TOBI] = "Claro!";
+cartaOpc2[2, personagens.TOBI] = "Não.";
+cartaScript[2, personagens.TOBI] = scrTobi3;
+cartaTempo[2, personagens.TOBI] = 8;
+
+cartaSprite[3, personagens.TOBI] = personagens.TOBI;
+cartaTexto[3, personagens.TOBI] = "Nossos fazendeiros estão pedindo para melhorar seus itens de coleta, posso?";
+cartaNome[3, personagens.TOBI] = "Tobi, o ferreiro";
+cartaOpc1[3, personagens.TOBI] = "Fique a vontade.";
+cartaOpc2[3, personagens.TOBI] = "Deixe como está. ";
+cartaScript[3, personagens.TOBI] = scrTobi4;
+cartaTempo[3, personagens.TOBI] = 8;
+
+#endregion
+
+#region Tayna, a Andaralhira 
+
+cartaSprite[0,personagens.TANYA] = personagens.TANYA;
+cartaTexto[0, personagens.TANYA] = "Olá Rei, venho com uma oferta perfeita e no preoçinho para o senhor. Aceita compra essas batatas deliciosas do Reino Spade?";
+cartaNome[0, personagens.TANYA] = "Tanya, a andarilha";
+cartaOpc1[0, personagens.TANYA] = "Eu amo batatas!!!";
+cartaOpc2[0, personagens.TANYA] = "Essas batatas paracem podre.";
+cartaScript[0, personagens.TANYA] = scrTanya1;
+cartaTempo[0, personagens.TANYA] = 8;
+
+cartaSprite[1, personagens.TANYA] = personagens.TANYA;
+cartaTexto[1, personagens.TANYA] = "Olá alteza, o reino Clover, estão com dificuldades, o povo está com fome. Poderia doar um pouco de alimentos para ajuda-los?";
+cartaNome[1, personagens.TANYA] = "Tanya, a andarilha";
+cartaOpc1[1, personagens.TANYA] = "Claro, vamos ajudar.";
+cartaOpc2[1, personagens.TANYA] = "Não temos condição.";
+cartaScript[1, personagens.TANYA] = scrTanya2;
+cartaTempo[1, personagens.TANYA] = 8;
+
+cartaSprite[2, personagens.TANYA] = personagens.TANYA;;
+cartaTexto[2, personagens.TANYA] = "Olá Rei, o reino Bopoles está vendendo um ferro de excelente material. Acredito que vale a pena comprar alteza.";
+cartaNome[2, personagens.TANYA] = "Tanya, a andarilha";
+cartaOpc1[2, personagens.TANYA] = "Claro!";
+cartaOpc2[2, personagens.TANYA] = "Não.";
+cartaScript[2, personagens.TANYA] = scrTanya3;
+cartaTempo[2, personagens.TANYA] = 8;
+
+cartaSprite[3, personagens.TANYA] = personagens.TANYA;;
+cartaTexto[3, personagens.TANYA] = "Alteza do meu coração, o reino Tuneca está vendendo armaduras de alta qualidade. Devemos comprar?";
+cartaNome[3, personagens.TANYA] = "Tanya, a andarilha";
+cartaOpc1[3, personagens.TANYA] = "Vamos comprar.";
+cartaOpc2[3, personagens.TANYA] = "Não.";
+cartaScript[3, personagens.TANYA] = scrTanya4;
+cartaTempo[3, personagens.TANYA] = 8;
+
+cartaSprite[4,personagens.TANYA] = personagens.TANYA;
+cartaTexto[4, personagens.TANYA] = "Olá Rei, venho com uma oferta perfeita e no preoçinho para o senhor. Aceita compra essas cenouras deliciosas do Reino Spade?";
+cartaNome[4, personagens.TANYA] = "Tanya, a andarilha";
+cartaOpc1[4, personagens.TANYA] = "Hmmmm cenouras!!!";
+cartaOpc2[4, personagens.TANYA] = "Essas cenouras paracem horríveis.";
+cartaScript[4, personagens.TANYA] = scrTanya5;
+cartaTempo[4, personagens.TANYA] = 8;
+
+cartaSprite[5,personagens.TANYA] = personagens.TANYA;
+cartaTexto[5, personagens.TANYA] = "REI URGENTE!! O reino Iboquston está passando por um inverno terrivél. Deveriamos mandar lenhas, casacos, algo quentes para ajudá-los. Urgente!";
+cartaNome[5, personagens.TANYA] = "Tanya, a andarilha";
+cartaOpc1[5, personagens.TANYA] = "Claro, leve o quanto antes!!!";
+cartaOpc2[5, personagens.TANYA] = "Problemas deles.";
+cartaScript[5, personagens.TANYA] = scrTanya6;
+cartaTempo[5, personagens.TANYA] = 8;
+
+#endregion
 
 
 

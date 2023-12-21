@@ -44,6 +44,7 @@
     {"id":{"name":"obj_gameDecisao","path":"objects/obj_gameDecisao/obj_gameDecisao.yy",},},
     {"id":{"name":"init","path":"scripts/init/init.yy",},},
     {"id":{"name":"spr_cartaBase","path":"sprites/spr_cartaBase/spr_cartaBase.yy",},},
+    {"id":{"name":"scritpsTanya","path":"scripts/scritpsTanya/scritpsTanya.yy",},},
     {"id":{"name":"scritpsCleitao","path":"scripts/scritpsCleitao/scritpsCleitao.yy",},},
     {"id":{"name":"obj_cartaBase","path":"objects/obj_cartaBase/obj_cartaBase.yy",},},
     {"id":{"name":"spr_guiDialogo","path":"sprites/spr_guiDialogo/spr_guiDialogo.yy",},},
@@ -55,7 +56,9 @@
     {"id":{"name":"scritpsDioni","path":"scripts/scritpsDioni/scritpsDioni.yy",},},
     {"id":{"name":"obj_gameDialogo","path":"objects/obj_gameDialogo/obj_gameDialogo.yy",},},
     {"id":{"name":"obj_gameControleCartas","path":"objects/obj_gameControleCartas/obj_gameControleCartas.yy",},},
+    {"id":{"name":"scritpsTobi","path":"scripts/scritpsTobi/scritpsTobi.yy",},},
     {"id":{"name":"spr_opcDecisoes","path":"sprites/spr_opcDecisoes/spr_opcDecisoes.yy",},},
+    {"id":{"name":"scritpsMorgan","path":"scripts/scritpsMorgan/scritpsMorgan.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
