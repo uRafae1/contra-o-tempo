@@ -1,12 +1,14 @@
 
+#macro roomSpeed 60;
+
 global.dinheiro = 60;
 global.comida = 60;
-global.tecnologia = 60;
+global.reino = 60;
 global.respeito = 60;
 
 global.addDinheiro = 0;
 global.addComida = 0;
-global.addTecnologia = 0;
+global.addReino = 0;
 global.addRespeito = 0;
 
 global.pontoHorrivel = 0;

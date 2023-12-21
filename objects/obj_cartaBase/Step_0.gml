@@ -17,6 +17,7 @@ if (global.opcaoDialogo != 0) {
 	switch (global.opcaoDialogo) {
 		case 1: hspeed += 0.4; break;
 		case 2: hspeed -= 0.4; break;
+		case 3: vspeed -= 0.4; break;
 	}
 	
 	if (instance_exists(obj_gameDecisao)) {
@@ -28,7 +29,7 @@ if (global.opcaoDialogo != 0) {
 		instance_destroy(obj_gameDialogo);
 	}
 	
-	if (bbox_right < 0 || bbox_left > room_width) {
+	if (bbox_right < 0 || bbox_left > room_width || bbox_bottom < 0) {
 		instance_destroy();
 	}
 }

@@ -28,5 +28,9 @@ if (!instance_exists(obj_cartaBase)) {
 	var _opc2 = instance_create_layer(48, 99, "Instances", obj_gameDecisao);
 	_opc2.opcao = 2;
 	_opc2.texto = cartaOpc2[array_get(global.lvlPersonagens, _personagem), _personagem];
+	
+	// Adiciona o tempo da decisão / Terceira resposta pra carta
+	obj_gameHistoria.tempoMax = cartaTempo[array_get(global.lvlPersonagens, _personagem), _personagem];
+	obj_gameHistoria.tempo = obj_gameHistoria.tempoMax;
 }
 

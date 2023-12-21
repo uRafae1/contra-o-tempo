@@ -5,9 +5,11 @@ function scrCleitao1(){
 	if (global.opcaoDialogo = 1) {
 		array_set(global.lvlPersonagens, personagens.CLEITAO, 1);
 		global.addDinheiro -= 10;
-		global.addTecnologia += 10;
+		global.addReino += 10;
 	} else if (global.opcaoDialogo = 2) {
 		global.addDinheiro += 10;
+	} else if (global.opcaoDialogo = 3) {
+		global.addRespeito -= 5;
 	}
 	
 }
@@ -22,6 +24,8 @@ function scrCleitao2() {
 	} else if (global.opcaoDialogo = 2) {
 		global.addDinheiro += 10;
 		global.addRespeito -= 10;
+	} else if (global.opcaoDialogo = 3) {
+		global.addRespeito -= 5;
 	}
 }
 
@@ -31,11 +35,13 @@ function scrCleitao3() {
 	if (global.opcaoDialogo = 1) {
 		array_set(global.lvlPersonagens, personagens.CLEITAO, 3);
 		global.addComida += 10;
-		global.addTecnologia += 10;
+		global.addReino += 10;
 		global.addDinheiro += 10;
 		global.addRespeito -= 20;
 	} else if (global.opcaoDialogo = 2) {
 		global.addRespeito += 20;
+	} else if (global.opcaoDialogo = 3) {
+		// Nada acontece
 	}
 }
 
@@ -48,18 +54,17 @@ function scrCleitao4() {
 		global.addRespeito -= 20;
 	} else if (global.opcaoDialogo = 2) {
 		global.addRespeito += 10;
+	} else if (global.opcaoDialogo = 3) {
+		array_set(global.lvlPersonagens, personagens.CLEITAO, 4);
+		array_set(global.lvlPersonagens, personagens.ARTHUR, -1);
+		global.addRespeito -= 20;
 	}
 }
 
 function scrCleitao5() {
 	
 	// Senhor, nós somos implacáveis juntos! Infelizmente sua doença só atrasará nosso império.
-	if (global.opcaoDialogo = 1) {
-		for (var i = 0; i < 10; ++i) {
-		    array_set(global.lvlPersonagens, i, -1);
-		}
-		array_set(global.lvlPersonagens, personagens.CLEITAO, 5);
-	} else if (global.opcaoDialogo = 2) {
+	if (global.opcaoDialogo != 0) {
 		for (var i = 0; i < 10; ++i) {
 		    array_set(global.lvlPersonagens, i, -1);
 		}
@@ -70,9 +75,7 @@ function scrCleitao5() {
 function scrCleitao6() {
 	
 	// Seus esforços foram muito úteis para nosso reino. Você será lembrado como o "Primeiro Conquistador".
-	if (global.opcaoDialogo = 1) {
-		array_set(global.lvlPersonagens, personagens.CLEITAO, 6);
-	} else if (global.opcaoDialogo = 2) {
+	if (global.opcaoDialogo != 0) {
 		array_set(global.lvlPersonagens, personagens.CLEITAO, 6);
 	}
 }
