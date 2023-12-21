@@ -8,6 +8,9 @@ function scrJaha1(){
 	} else if (global.opcaoDialogo = 2) {
 		array_set(global.lvlPersonagens, personagens.JAHA, 1);
 		// Nada acontece
+	} else if (global.opcaoDialogo = 3) {
+		array_set(global.lvlPersonagens, personagens.JAHA, 1);
+		// Nada acontece
 	}
 	
 }
@@ -18,11 +21,13 @@ function scrJaha2() {
 	if (global.opcaoDialogo = 1) {
 		array_set(global.lvlPersonagens, personagens.JAHA, 2);
 		global.addDinheiro -= 10;
-		global.addTecnologia += 5;
+		global.addReino += 5;
 		global.addRespeito += 10;
 	} else if (global.opcaoDialogo = 2) {
 		global.addDinheiro += 10;
 		global.addRespeito -= 10;
+	} else if (global.opcaoDialogo = 3) {
+		// Nada acontece
 	}
 }
 
@@ -36,6 +41,8 @@ function scrJaha3() {
 	} else if (global.opcaoDialogo = 2) {
 		global.addDinheiro += 10;
 		global.addRespeito -= 20;
+	} else if (global.opcaoDialogo = 3) {
+		global.addRespeito -= 10;
 	}
 }
 
@@ -50,6 +57,8 @@ function scrJaha4() {
 	} else if (global.opcaoDialogo = 2) {
 		global.addDinheiro += 10;
 		global.addRespeito -= 20;
+	} else if (global.opcaoDialogo = 3) {
+		// Nada acontece
 	}
 }
 
@@ -64,6 +73,8 @@ function scrJaha5() {
 	} else if (global.opcaoDialogo = 2) {
 		global.addDinheiro += 25;
 		global.addComida -= 25;
+	} else if (global.opcaoDialogo = 3) {
+		global.addRespeito -= 10;
 	}
 }
 

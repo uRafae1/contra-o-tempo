@@ -1,3 +1,3 @@
 
-texto = "fnasfbaiujbfajibfajbfa";
+texto = "";
 indice = 0;

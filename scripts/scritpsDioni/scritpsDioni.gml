@@ -5,10 +5,12 @@ function scrDioni1(){
 	if (global.opcaoDialogo = 1) {
 		array_set(global.lvlPersonagens, personagens.DIONI, 1);
 		global.addDinheiro -= 30;
-		global.addTecnologia += 20;
+		global.addReino += 20;
 	} else if (global.opcaoDialogo = 2) {
 		global.addDinheiro += 10;
 		global.addRespeito += 10;
+	} else if (global.opcaoDialogo = 3) {
+		// Nada acontece
 	}
 	
 }
@@ -20,10 +22,12 @@ function scrDioni2() {
 		array_set(global.lvlPersonagens, personagens.DIONI, 2);
 		global.addDinheiro -= 15;
 		global.addRespeito -= 15;
-		global.addTecnologia += 5;
+		global.addReino += 5;
 	} else if (global.opcaoDialogo = 2) {
 		global.addDinheiro += 10;
 		global.addRespeito += 10;
+	} else if (global.opcaoDialogo = 3) {
+		// Nada acontece
 	}
 }
 
@@ -33,10 +37,12 @@ function scrDioni3() {
 	if (global.opcaoDialogo = 1) {
 		array_set(global.lvlPersonagens, personagens.DIONI, 3);
 		global.addDinheiro -= 20;
-		global.addTecnologia += 15;
+		global.addReino += 15;
 	} else if (global.opcaoDialogo = 2) {
 		global.addDinheiro += 10;
-		global.addTecnologia -= 15;
+		global.addReino -= 15;
+	} else if (global.opcaoDialogo = 3) {
+		// Nada acontece
 	}
 }
 
@@ -50,6 +56,8 @@ function scrDioni4() {
 	} else if (global.opcaoDialogo = 2) {
 		global.addDinheiro += 10;
 		global.addRespeito += 20;
+	} else if (global.opcaoDialogo = 3) {
+		// Nada acontece
 	}
 }
 
@@ -63,6 +71,8 @@ function scrDioni5() {
 		global.addRespeito -= 35;
 	} else if (global.opcaoDialogo = 2) {
 		global.addDinheiro += 10;
+		global.addRespeito += 10;
+	} else if (global.opcaoDialogo = 3) {
 		global.addRespeito += 25;
 	}
 }
