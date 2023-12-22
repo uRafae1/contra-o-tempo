@@ -166,10 +166,99 @@ cartaTempo[5, personagens.CLEITAO] = 8;
 
 #endregion
 
+#region Cartas do Serjio, o Fazendeiro
+cartaSprite[0, personagens.SERJIO] = personagens.SERJIO;
+cartaTexto[0, personagens.SERJIO] = "Senhor, estamos precisnado de novas sementes para plantar, gotaria de nos ajudar ?";
+cartaNome[0, personagens.SERJIO] = "Serjio, o fazendeiro";
+cartaOpc1[0, personagens.SERJIO] = "Ajudar";
+cartaOpc2[0, personagens.SERJIO] = "Não";
+cartaScript[0, personagens.SERJIO] = scrSerjio1;
+cartaTempo[0, personagens.SERJIO] = 8;
 
+cartaSprite[1, personagens.SERJIO] = personagens.SERJIO;
+cartaTexto[1, personagens.SERJIO] = "Agora com as novas sementes precisamos expandir nossas terras, para uma produção maior.";
+cartaNome[1, personagens.SERJIO] = "Serjio, o fazendeiro";
+cartaOpc1[1, personagens.SERJIO] = "Novas Terras";
+cartaOpc2[1, personagens.SERJIO] = "Deixe como está";
+cartaScript[1, personagens.SERJIO] = scrSerjio2;
+cartaTempo[1, personagens.SERJIO] = 8;
 
+cartaSprite[2, personagens.SERJIO] = personagens.SERJIO;
+cartaTexto[2, personagens.SERJIO] = "Com a novas terras podemos vender essa nova safra e ainda ira sobrar comida para a população.";
+cartaNome[2, personagens.SERJIO] = "Serjio, o fazendeiro";
+cartaOpc1[2, personagens.SERJIO] = "Vamos vender";
+cartaOpc2[2, personagens.SERJIO] = "Estocar mais comida";
+cartaScript[2, personagens.SERJIO] = scrSerjio3;
+cartaTempo[2, personagens.SERJIO] = 8;
 
+cartaSprite[3, personagens.SERJIO] = personagens.SERJIO;
+cartaTexto[3, personagens.SERJIO] = "Podemos investir em novas maquinas que irão nos ajudar nas plantações, multiplicara nossa produção.";
+cartaNome[3, personagens.SERJIO] = "Serjio, o fazendeiro";
+cartaOpc1[3, personagens.SERJIO] = "Vamos investir";
+cartaOpc2[3, personagens.SERJIO] = "Não podemos";
+cartaScript[3, personagens.SERJIO] = scrSerjio4;
+cartaTempo[3, personagens.SERJIO] = 8;
 
+cartaSprite[4, personagens.SERJIO] = personagens.SERJIO;
+cartaTexto[4, personagens.SERJIO] = "Nos fazendeiros queriamos mais poder politoco criando uma assembleia, assim teremos controle para estocar e vender comida, tornando as plantações mais rentaveis.";
+cartaNome[4, personagens.SERJIO] = "Serjio, o fazendeiro";
+cartaOpc1[4, personagens.SERJIO] = "Criar assembleia";
+cartaOpc2[4, personagens.SERJIO] = "Irei pensar";
+cartaScript[4, personagens.SERJIO] = scrSerjio5;
+cartaTempo[4, personagens.SERJIO] = 8;
+
+#endregion
+
+#region Cartas do Arthur, o bondoso
+cartaSprite[0, personagens.ARTHUR] = personagens.ARTHUR;
+cartaTexto[0, personagens.ARTHUR] = "Meu rei ja pensou em escutar e satisfazer as necessidades do povo ?";
+cartaNome[0, personagens.ARTHUR] = "Arthur, a criança";
+cartaOpc1[0, personagens.ARTHUR] = "Escutar";
+cartaOpc2[0, personagens.ARTHUR] = "Ignorar";
+cartaScript[0, personagens.ARTHUR] = scrArthur1;
+cartaTempo[0, personagens.ARTHUR] = 8;
+
+cartaSprite[1, personagens.ARTHUR] = personagens.ARTHUR;
+cartaTexto[1, personagens.ARTHUR] = "Senhor a população de menos a fortunados esta crescendo no nosso reino, poderiamos ajudar?";
+cartaNome[1, personagens.ARTHUR] = "Arthur, a criança";
+cartaOpc1[1, personagens.ARTHUR] = "Ajudar";
+cartaOpc2[1, personagens.ARTHUR] = "Ignorar";
+cartaScript[1, personagens.ARTHUR] = scrArthur2;
+cartaTempo[1, personagens.ARTHUR] = 8;
+
+cartaSprite[2, personagens.ARTHUR] = personagens.ARTHUR;
+cartaTexto[2, personagens.ARTHUR] = "Meu rei, o reino vizinho esta passando por dificuldades poderiamos ajudalos fazendo uma nova aliança";
+cartaNome[2, personagens.ARTHUR] = "Arthur, a criança";
+cartaOpc1[2, personagens.ARTHUR] = "Nova aliança";
+cartaOpc2[2, personagens.ARTHUR] = "Ignorar";
+cartaScript[2, personagens.ARTHUR] = scrArthur3;
+cartaTempo[2, personagens.ARTHUR] = 8;
+
+cartaSprite[3, personagens.ARTHUR] = personagens.ARTHUR;
+cartaTexto[3, personagens.ARTHUR] = "Andei pensando sobre um novo acordo comercial que ira beneficiar a todos, ira ser lucrativo sem prejudicar o resto do reino.";
+cartaNome[3, personagens.ARTHUR] = "Arthur, a criança";
+cartaOpc1[3, personagens.ARTHUR] = "Novo acordo";
+cartaOpc2[3, personagens.ARTHUR] = "Ignorar";
+cartaScript[3, personagens.ARTHUR] = scrArthur4;
+cartaTempo[3, personagens.ARTHUR] = 8;
+
+cartaSprite[4, personagens.ARTHUR] = personagens.ARTHUR;
+cartaTexto[4, personagens.ARTHUR] = "Alguns grupos de diferentes religiões estão começando um tumulto, podemos mostrar que no nosso reino respeitamos as diferenças culturais, punindo quem não cumprir com tal.";
+cartaNome[4, personagens.ARTHUR] = "Arthur, a criança";
+cartaOpc1[4, personagens.ARTHUR] = "Impor respeito";
+cartaOpc2[4, personagens.ARTHUR] = "Nosso reino?";
+cartaScript[4, personagens.ARTHUR] = scrArthur5;
+cartaTempo[4, personagens.ARTHUR] = 8;
+
+cartaSprite[5, personagens.ARTHUR] = personagens.ARTHUR;
+cartaTexto[5, personagens.ARTHUR] = "Rei, boa parte de nossos suditos estão reclamando dos impostos, poderiamos abaixar um pouco para acalmá los";
+cartaNome[5, personagens.ARTHUR] = "Arthur, a criança";
+cartaOpc1[5, personagens.ARTHUR] = "Diminuir impostos";
+cartaOpc2[5, personagens.ARTHUR] = "Deixa como esta";
+cartaScript[5, personagens.ARTHUR] = scrArthur6;
+cartaTempo[5, personagens.ARTHUR] = 8;
+
+#endregion
 
 
 

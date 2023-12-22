@@ -6,7 +6,7 @@ if (!instance_exists(obj_cartaBase)) {
 	
 	// Seleciona a carta aleatóriamente
 	randomize();
-	var _personagem = choose(personagens.DIONI, personagens.JAHA, personagens.CLEITAO);
+	var _personagem = choose(personagens.DIONI, personagens.JAHA, personagens.CLEITAO, personagens.SERJIO, personagens.ARTHUR);
 	
 	if (array_get(global.lvlPersonagens, _personagem) < 0) {
 		exit;
