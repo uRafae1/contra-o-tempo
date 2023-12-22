@@ -6,8 +6,23 @@ if (!instance_exists(obj_cartaBase)) {
 	
 	// Seleciona a carta aleatóriamente
 	randomize();
-	var _personagem = choose(personagens.DIONI, personagens.JAHA, personagens.CLEITAO, personagens.SERJIO, personagens.ARTHUR);
+	var _personagem;
 	
+	if (global.escolha < 0 || global.escolha >= 40) {
+		_personagem = personagens.REI;
+	} else {
+		_personagem = choose(personagens.ARTHUR, 
+							 personagens.GORDON, 
+							 personagens.SERJIO, 
+							 personagens.CLEITAO, 
+							 personagens.DIONI, 
+							 personagens.JAHA,
+							 personagens.MORGAN,
+							 personagens.TANYA,
+							 personagens.TOBI);
+	}
+	
+		
 	if (array_get(global.lvlPersonagens, _personagem) < 0) {
 		exit;
 	}
@@ -30,7 +45,7 @@ if (!instance_exists(obj_cartaBase)) {
 	_opc2.texto = cartaOpc2[array_get(global.lvlPersonagens, _personagem), _personagem];
 	
 	// Adiciona o tempo da decisão / Terceira resposta pra carta
-	obj_gameHistoria.tempoMax = cartaTempo[array_get(global.lvlPersonagens, _personagem), _personagem];
+	obj_gameHistoria.tempoMax = cartaTempo[array_get(global.lvlPersonagens, _personagem), _personagem] * roomSpeed;
 	obj_gameHistoria.tempo = obj_gameHistoria.tempoMax;
 }
 

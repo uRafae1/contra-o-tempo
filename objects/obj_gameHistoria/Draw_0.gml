@@ -31,4 +31,17 @@ var _tempo = (tempo/tempoMax)*100;
 draw_healthbar(96, 80, 128, 81, _tempo, -1, c_white, c_white, 1, 0, 0);
 draw_healthbar(128, 80, 160, 81, _tempo, -1, c_white, c_white, 0, 0, 0);
 
+if (global.escolha >= 0) {
+	draw_set_font(font_pixels);
+	draw_set_valign(fa_middle);
+	draw_set_halign(fa_center);
+	
+	draw_text_transformed(room_width/2, 86, $"Ano {calendarioAno}, Mês {calendarioMes}", 0.7, 0.7, 0);
+	
+	draw_set_font(-1);
+	draw_set_valign(-1);
+	draw_set_halign(-1);draw_set_font(-1);
+	draw_set_valign(-1);
+	draw_set_halign(-1);
+}
 

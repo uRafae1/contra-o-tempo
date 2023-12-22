@@ -4,7 +4,7 @@ draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
 draw_set_font(font_pixels);
 
-draw_text_ext_transformed(room_width/2, 112, _texto, 10, room_width, 0.8, 0.8, 0);
+draw_text_ext_transformed(room_width/2, 115, _texto, 10, room_width, 0.8, 0.8, 0);
 if (indice < string_length(texto)) {
 	indice += 0.6;
 	if (mouse_check_button_pressed(mb_left)) {

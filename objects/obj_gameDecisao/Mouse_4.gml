@@ -4,5 +4,6 @@ if (instance_exists(obj_gameDialogo)) {
 		obj_gameDialogo.indice = string_length(obj_gameDialogo.texto);
 	} else {
 		global.opcaoDialogo = opcao;
+		global.escolha++;
 	}
 }

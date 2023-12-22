@@ -1,4 +1,6 @@
 
+audio_play_sound(snd_cartaMovendo, 1, 0);
+
 randomize();
 
 image_xscale = 1;
