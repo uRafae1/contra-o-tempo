@@ -17,7 +17,7 @@ global.pontoOk = 0;
 global.pontoBom = 0;
 global.pontoPerfeito = 0;
 
-global.lvlPersonagens = array_create(10);
+global.lvlPersonagens = array_create(11);
 
 global.opcaoDialogo = 0;
 
@@ -25,7 +25,7 @@ enum personagens {
 	REI = 0,			// Player
 	JAHA = 1,			// Jaha, o chanceler
 	GORDON = 2,			// Gordon, o tesoureiro
-	CHARLES = 3,		// Charles, o ministro
+	MORGAN = 3,			// Morgan, o ministro
 	TOBI = 4,			// Tobi, o ferreiro
 	SERJIO = 5,			// Serjio, o fazendeiro
 	ARTHUR = 6,			// Arthur, a criança
@@ -35,8 +35,10 @@ enum personagens {
 	TANYA = 10,			// Tanya, a andarilha
 	
 	REIFANTASMA = 11,	// Final Perfeito
-	ARTHURREI = 12,		// Final Bom
+	ARTHURREI = 12,		// Final Bom I
 	DIONIBEBADO = 13,	// Final Ruim
-	CLEITAOREI = 14		// Final Horrível
+	CLEITAOREI = 14,	// Final Horrível
+	CIANE = 15,
+	CIANERAINHA = 16	// Final Bom II
 	
 }
