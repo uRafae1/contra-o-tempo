@@ -4,3 +4,6 @@ tempo = 0;
 
 temporizador = roomSpeed;
 
+escolhaAtual = 0;
+calendarioAno = 0;
+calendarioMes = 0;
