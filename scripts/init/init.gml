@@ -11,18 +11,11 @@ global.addComida = 0;
 global.addReino = 0;
 global.addRespeito = 0;
 
-global.pontoHorrivel = 0;
-global.pontoRuim = 0;
-global.pontoOk = 0;
-global.pontoBom = 0;
-global.pontoPerfeito = 0;
-
 global.lvlPersonagens = array_create(11);
 
-global.escolha = -5;
+global.escolha = -6;
 global.opcaoDialogo = 0;
-
-
+global.final = noone;
 
 enum personagens {
 	REI = 0,			// Player

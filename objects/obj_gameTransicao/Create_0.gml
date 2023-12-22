@@ -1,5 +1,5 @@
 
 alpha = 0;
-destino = noone;
+destino = Menu;
 spd = 0.01;
 mudou = false;

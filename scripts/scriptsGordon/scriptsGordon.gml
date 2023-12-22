@@ -199,24 +199,6 @@ function scrGordon12() {
 	array_set(global.lvlPersonagens, personagens.GORDON, -1);
 }
 	
-function scrGordon13() {
-	
-	//	Senhor, estamos falidos, reinos vizinhos não querem doar para nois. O que fazemos, o que devemos fazer.
-	if (global.opcaoDialogo = 1 ) {	
-		room_next(GameOver);
-	} else if (global.opcaoDialogo = 2) {
-		room_next(GameOver);
-	}
-	else if (global.opcaoDialogo = 3) {
-		room_next(GameOver);
-	}
-	array_set(global.lvlPersonagens, personagens.GORDON, -1);
-	
-}
-
-
-
-
 /*
 
 if (global.opcaoDialogo = 1) {

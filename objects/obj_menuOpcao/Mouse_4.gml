@@ -1,4 +1,9 @@
 
 if (funcao != noone) {
-	script_execute(funcao, destino);
+	if (destino) {
+		script_execute(funcao, destino);
+	} else {
+		script_execute(funcao);
+	}
+	
 }

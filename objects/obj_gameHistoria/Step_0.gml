@@ -11,6 +11,10 @@ if (global.addDinheiro != 0) {
 	}
 }
 
+if (global.dinheiro = 0) {
+	global.final = "Falência";
+}
+
 if (global.addComida != 0) {
 	global.comida += sign(global.addComida);
 	global.addComida -= sign(global.addComida);
@@ -21,6 +25,10 @@ if (global.addComida != 0) {
 	if (global.comida <= 0) {
 		global.comida = 0;
 	}
+}
+
+if (global.comida = 0) {
+	global.final = "Fome";
 }
 
 if (global.addReino != 0) {
@@ -34,6 +42,10 @@ if (global.addReino != 0) {
 		global.reino = 0;
 	}
 }
+	
+if (global.reino = 0) {
+	global.final = "Reino mizerável";
+}
 
 if (global.addRespeito != 0) {
 	global.respeito += sign(global.addRespeito);
@@ -45,6 +57,10 @@ if (global.addRespeito != 0) {
 	if (global.respeito <= 0) {
 		global.respeito = 0;
 	}
+}
+
+if (global.respeito = 0) {
+	global.final = "Perdeu o respeito";
 }
 
 if (tempo > 0 && instance_exists(obj_gameDialogo)) {
