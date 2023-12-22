@@ -65,7 +65,7 @@ function scrCleitao5() {
 	
 	// Senhor, nós somos implacáveis juntos! Infelizmente sua doença só atrasará nosso império.
 	if (global.opcaoDialogo != 0) {
-		for (var i = 0; i < 11; ++i) {
+		for (var i = 0; i < 10; ++i) {
 		    array_set(global.lvlPersonagens, i, -1);
 		}
 		array_set(global.lvlPersonagens, personagens.CLEITAO, 5);

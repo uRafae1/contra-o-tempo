@@ -66,7 +66,7 @@ function scrJaha5() {
 	
 	// Vamos investir em fazendas e estocar comida, assim nosso povo não passará fome no inverno.
 	if (global.opcaoDialogo = 1) {
-		array_set(global.lvlPersonagens, personagens.JAHA, -1);
+		array_set(global.lvlPersonagens, personagens.JAHA, 5);
 		global.addDinheiro -= 30;
 		global.addComida += 15;
 		global.addRespeito += 15;
