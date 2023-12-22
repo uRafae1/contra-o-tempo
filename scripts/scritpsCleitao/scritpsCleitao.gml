@@ -76,7 +76,7 @@ function scrCleitao6() {
 	
 	// Seus esforços foram muito úteis para nosso reino. Você será lembrado como o "Primeiro Conquistador".
 	if (global.opcaoDialogo != 0) {
-		array_set(global.lvlPersonagens, personagens.CLEITAO, 6);
+		room_goto(GameOver);
 	}
 }
 

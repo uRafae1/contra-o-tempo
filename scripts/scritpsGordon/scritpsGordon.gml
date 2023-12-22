@@ -1,5 +1,4 @@
 
-
 function scrGordon1(){
 	
 	// Senhor rei, eu tenho uma boa notícia: encontramos uma nova fonte de riqueza no nosso território. Podemos aumentar os impostos sobre os camponeses e os comerciantes.
@@ -41,11 +40,10 @@ function scrGordon3() {
 	
 	// Cleitão - Meu rei, Gordon me avisou que o reino Rilikya, está querendo guerra com nosso reino. Podemos contra-atacar?
 	if (global.opcaoDialogo = 1) {
-		array_set(global.lvlPersonagens, personagens.GORDON, 3);
+		array_set(global.lvlPersonagens, personagens.GORDON, 4);
 		global.addRespeito += 5;
 		global.addDinheiro -= 35;
 	} else if (global.opcaoDialogo = 6) {
-		array_set(global.lvlPersonagens, personagens.GORDON, 5);
 		global.addRespeito -= 10;
 		global.addDinheiro -= 10;
 		global.addComida -= 10;
@@ -65,7 +63,6 @@ function scrGordon4() {
 		array_set(global.lvlPersonagens, personagens.GORDON, 4);
 			global.addRespeito += 5;
 	} else if (global.opcaoDialogo = 3) {
-		array_set(global.lvlPersonagens, personagens.GORDON, 4);
 			global.addRespeito -= 5;
 	}
 }
@@ -77,10 +74,8 @@ function scrGordon5() {
 		array_set(global.lvlPersonagens, personagens.GORDON, 5);
 		global.addRespeito += 15;
 	} else if (global.opcaoDialogo = 2) {
-		array_set(global.lvlPersonagens, personagens.GORDON, 5);
 		global.addRespeito -= 15;
 	} else if (global.opcaoDialogo = 3) {
-		array_set(global.lvlPersonagens, personagens.GORDON, 5);
 		global.addRespeito -= 20;
 	}
 }
@@ -198,22 +193,6 @@ function scrGordon12() {
 	}
 	array_set(global.lvlPersonagens, personagens.GORDON, -1);
 }
-	
-function scrGordon13() {
-	
-	//	Senhor, estamos falidos, reinos vizinhos não querem doar para nois. O que fazemos, o que devemos fazer.
-	if (global.opcaoDialogo = 1 ) {	
-		room_next(GameOver);
-	} else if (global.opcaoDialogo = 2) {
-		room_next(GameOver);
-	}
-	else if (global.opcaoDialogo = 3) {
-		room_next(GameOver);
-	}
-	array_set(global.lvlPersonagens, personagens.GORDON, -1);
-	
-}
-
 
 
 

@@ -10,6 +10,7 @@
     {"name":"inst_5CF7D932","path":"rooms/Menu/Menu.yy",},
     {"name":"inst_61061BBB","path":"rooms/Menu/Menu.yy",},
     {"name":"inst_50AFF43A","path":"rooms/Menu/Menu.yy",},
+    {"name":"inst_28850B66","path":"rooms/Menu/Menu.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -27,6 +28,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_50AFF43A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_menuOpcao","path":"objects/obj_menuOpcao/obj_menuOpcao.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_menuOpcao","path":"objects/obj_menuOpcao/obj_menuOpcao.yy",},"propertyId":{"name":"texto","path":"objects/obj_menuOpcao/obj_menuOpcao.yy",},"value":"Tutorial",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":48.0,"y":120.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_28850B66","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_musica","path":"objects/obj_musica/obj_musica.yy",},"properties":[],"rotation":0.0,"scaleX":0.75,"scaleY":0.65830004,"x":10.0,"y":9.019697,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Assets","assets":[],"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},"stretch":true,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},

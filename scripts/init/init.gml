@@ -22,6 +22,8 @@ global.lvlPersonagens = array_create(11);
 global.escolha = -5;
 global.opcaoDialogo = 0;
 
+
+
 enum personagens {
 	REI = 0,			// Player
 	JAHA = 1,			// Jaha, o chanceler

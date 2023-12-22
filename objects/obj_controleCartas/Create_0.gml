@@ -223,6 +223,15 @@ cartaOpc2[11, personagens.GORDON] = "....";
 cartaScript[11, personagens.GORDON] = scrGordon12;
 cartaTempo[11, personagens.GORDON] = 10;
 
+// Fala para quando o dinheiro acabar
+cartaSprite[10, personagens.GORDON] = personagens.GORDON;
+cartaTexto[10, personagens.GORDON] = "Senhor, estamos falidos, reinos vizinhos não querem doar para nois. O que fazemos, o que devemos fazer?.";
+cartaNome[10, personagens.GORDON] = "Gordon, o tesoureiro";
+cartaOpc1[10, personagens.GORDON] = "Nada, vou morrer mesmo";
+cartaOpc2[10, personagens.GORDON] = "Desculpe, eu tentei";
+cartaScript[10, personagens.GORDON] = scrGordon13;
+cartaTempo[10, personagens.GORDON] = 10;
+
 #endregion
 
 #region Cartas do Morgan, o ministro
