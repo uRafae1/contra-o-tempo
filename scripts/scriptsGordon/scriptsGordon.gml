@@ -41,16 +41,16 @@ function scrGordon3() {
 	
 	// Cleitão - Meu rei, Gordon me avisou que o reino Rilikya, está querendo guerra com nosso reino. Podemos contra-atacar?
 	if (global.opcaoDialogo = 1) {
+		array_set(global.lvlPersonagens, personagens.GORDON, 4);
+		global.addRespeito -= 10;
+		global.addDinheiro += 15;
+		global.addComida -= 10;
+	} else if (global.opcaoDialogo = 6) {
 		array_set(global.lvlPersonagens, personagens.GORDON, 3);
 		global.addRespeito += 5;
 		global.addDinheiro -= 35;
-	} else if (global.opcaoDialogo = 6) {
-		array_set(global.lvlPersonagens, personagens.GORDON, 5);
-		global.addRespeito -= 10;
-		global.addDinheiro -= 10;
-		global.addComida -= 10;
-		global.addComida += 5;
 	} else if (global.opcaoDialogo = 3) {
+		array_set(global.lvlPersonagens, personagens.GORDON, 3);
 		global.addRespeito += 5;
 	}
 }
