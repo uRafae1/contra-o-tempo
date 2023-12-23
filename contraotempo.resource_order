@@ -43,6 +43,7 @@
     {"name":"spr_guiPergaminho","order":7,"path":"sprites/spr_guiPergaminho/spr_guiPergaminho.yy",},
     {"name":"spr_titulo","order":1,"path":"sprites/spr_titulo/spr_titulo.yy",},
     {"name":"scriptsSerjio","order":9,"path":"scripts/scriptsSerjio/scriptsSerjio.yy",},
+    {"name":"spr_icone","order":2,"path":"sprites/spr_icone/spr_icone.yy",},
     {"name":"spr_guiMouse","order":8,"path":"sprites/spr_guiMouse/spr_guiMouse.yy",},
     {"name":"obj_gameHistoria","order":1,"path":"objects/obj_gameHistoria/obj_gameHistoria.yy",},
     {"name":"spr_guiSair","order":6,"path":"sprites/spr_guiSair/spr_guiSair.yy",},

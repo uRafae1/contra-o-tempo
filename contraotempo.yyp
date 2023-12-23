@@ -65,6 +65,7 @@
     {"id":{"name":"scriptsSerjio","path":"scripts/scriptsSerjio/scriptsSerjio.yy",},},
     {"id":{"name":"snd_cartaMovendo","path":"sounds/snd_cartaMovendo/snd_cartaMovendo.yy",},},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
+    {"id":{"name":"spr_icone","path":"sprites/spr_icone/spr_icone.yy",},},
     {"id":{"name":"spr_guiMouse","path":"sprites/spr_guiMouse/spr_guiMouse.yy",},},
     {"id":{"name":"spr_personagens","path":"sprites/spr_personagens/spr_personagens.yy",},},
     {"id":{"name":"obj_gameHistoria","path":"objects/obj_gameHistoria/obj_gameHistoria.yy",},},
