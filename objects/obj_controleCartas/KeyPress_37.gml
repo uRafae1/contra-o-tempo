@@ -1,2 +1,0 @@
-
-global.comida = 0;

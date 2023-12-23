@@ -65,14 +65,12 @@ function scrDioni5() {
 	
 	// mEu SeNhOr E cOmPaNhEiRo, O qUe AcHa dE tOmArMoS uMaS dOsEs De HiDrOmEl? sÓ uMaS sEiS, cOiSa PoUcA.
 	if (global.opcaoDialogo = 1) {
-		array_set(global.lvlPersonagens, personagens.DIONI, 5);
-		global.addDinheiro -= 15;
-		global.addComida -= 15;
-		global.addRespeito -= 35;
+		global.final = "Se tornou o \"Rei Bêbado\"";
 	} else if (global.opcaoDialogo = 2) {
 		global.addDinheiro += 10;
 		global.addRespeito += 10;
 	} else if (global.opcaoDialogo = 3) {
+		array_set(global.lvlPersonagens, personagens.DIONI, -1);
 		global.addRespeito += 25;
 	}
 }

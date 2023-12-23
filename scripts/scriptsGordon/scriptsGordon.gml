@@ -167,11 +167,9 @@ function scrGordon10() {
 		array_set(global.lvlPersonagens, personagens.GORDON, 10);
 		global.addRespeito -= 30;
 	} else if (global.opcaoDialogo = 2) {
-		array_set(global.lvlPersonagens, personagens.GORDON, 10);
 		global.addRespeito += 5;
 	}
 	else if (global.opcaoDialogo = 3) {
-		array_set(global.lvlPersonagens, personagens.GORDON, 10);
 		global.addRespeito += 5;
 	}
 }
@@ -179,24 +177,20 @@ function scrGordon10() {
 function scrGordon11() {
 	
 	//	Agora que eu tenho controle total do reino, não preciso mais de você, Cleitão, elimine ele.
-	if (global.opcaoDialogo = 1 ) {	
-	} else if (global.opcaoDialogo = 2) {
+	if (global.opcaoDialogo != 0 ) {	
+		array_set(global.lvlPersonagens, personagens.GORDON, 11);
 	}
-	else if (global.opcaoDialogo = 3) {
-	}
-	array_set(global.lvlPersonagens, personagens.GORDON, 11);
+	
 }
 
 function scrGordon12() {
 	
 	// Rei Morre
-	if (global.opcaoDialogo = 1 ) {
-
-	} else if (global.opcaoDialogo = 2) {
+	if (global.opcaoDialogo != 0 ) {
+		array_set(global.lvlPersonagens, personagens.GORDON, -1);
+		global.final = "Golpe por Gordon"
 	}
-	else if (global.opcaoDialogo = 3) {
-	}
-	array_set(global.lvlPersonagens, personagens.GORDON, -1);
+	
 }
 	
 /*

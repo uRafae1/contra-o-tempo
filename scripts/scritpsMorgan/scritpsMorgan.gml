@@ -92,9 +92,9 @@ function scrMorgan7() {
 	
 	// Arthur rei - Eu não acredito! Por que isso meu rei? Mesmo sendo novo, darei meu melhor para seguir seu legado!
 	if (global.opcaoDialogo != 0) {
-		array_set(global.lvlPersonagens, personagens.MORGAN, -1);
 		global.addReino += 100;
 		global.addRespeito += 100;
+		global.final = "O novo rei Arthur!";
 	}
 }
 
@@ -118,7 +118,6 @@ function scrMorgan9() {
 	
 	// Ciane - É um grande prazer finalmente conhecê-lo vossa alteza. Soube de sua proposta. Caso aceite-a prometo respeitar, administrar e continuar seu legado com minha vida.
 	if (global.opcaoDialogo = 1) {
-		array_set(global.lvlPersonagens, personagens.CLEITAO, -1);
 		array_set(global.lvlPersonagens, personagens.MORGAN, 9);
 		global.addReino += 10;
 	} else if (global.opcaoDialogo = 2) {
@@ -152,9 +151,9 @@ function scrMorgan11() {
 	
 	// Rainha Ciane - Muito obrigado senhor, honrarei seu legado da melhor forma possível. Agora você pode descansar tranquilamente.
 	if (global.opcaoDialogo != 0) {
-		array_set(global.lvlPersonagens, personagens.MORGAN, -1);
 		global.addReino += 100;
 		global.addRespeito += 100;
+		global.final = "A nova rainha Ciane";
 	}
 	
 }

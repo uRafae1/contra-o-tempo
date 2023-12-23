@@ -30,6 +30,7 @@ if (global.opcaoDialogo != 0) {
 	}
 	
 	if (bbox_right < 0 || bbox_left > room_width || bbox_bottom < 0) {
+		global.opcaoDialogo = 0;
 		instance_destroy();
 	}
 }

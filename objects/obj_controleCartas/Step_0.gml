@@ -2,7 +2,7 @@
 
 if (global.final != noone) {
 	instance_create_layer(room_width/2, 500, layer, obj_gameFinal);
-	global.opcaoDialogo = 4;
+	global.opcaoDialogo = 0;
 	instance_destroy(obj_gameHistoria);
 	instance_destroy();
 }
@@ -28,7 +28,6 @@ if (!instance_exists(obj_cartaBase)) {
 							 personagens.TANYA,
 							 personagens.TOBI);
 	}
-	
 		
 	if (array_get(global.lvlPersonagens, _personagem) < 0) {
 		exit;

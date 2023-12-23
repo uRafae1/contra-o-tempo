@@ -70,19 +70,15 @@ if (tempo > 0 && instance_exists(obj_gameDialogo)) {
 		}
 	}
 	
-} else if (tempo <= 0) {
+} else if (tempo = 0) {
 	global.opcaoDialogo = 3;
 	global.escolha++;
-}
-
-if (global.escolha > escolhaAtual && global.escolha >= 0) {
 	
-	calendarioMes += 3;
-	
-	if (calendarioMes = 12) {
-		calendarioMes = 0;
-		calendarioAno++;
+	global.calendarioMes += 3;
+	if (global.calendarioMes = 12) {
+		global.calendarioAno += 1;
+		global.calendarioMes = 0;
 	}
 	
-	escolhaAtual++;
+	tempo = -1;
 }

@@ -1,5 +1,5 @@
 
-cartaAtual = 0;
+cartaAtual = noone;
 cartaOpcaoAtual = 0;
 escolhaAtual = 0;
 
@@ -14,7 +14,7 @@ cartaScript[0, personagens.REI] = scrRei1;
 cartaTempo[0, personagens.REI] = 8;
 
 cartaSprite[1, personagens.REI] = personagens.JAHA;
-cartaTexto[1, personagens.REI] = "Mas tome cuidado, toda ação gera uma consequência. Tente ser o melhor rei e coide bem de seus recursos!";
+cartaTexto[1, personagens.REI] = "Mas tome cuidado, toda ação gera uma consequência. Tente ser o melhor rei e cuide bem de seus recursos!";
 cartaNome[1, personagens.REI] = "Jaha, o chanceler";
 cartaOpc1[1, personagens.REI] = "Entendi!";
 cartaOpc2[1, personagens.REI] = "Ok, Jaha";
@@ -58,7 +58,7 @@ cartaTexto[6, personagens.REI] = "Pelo jeito, você fez um bom trabalho por aqui
 cartaNome[6, personagens.REI] = "Sucy, a bruxa";
 cartaOpc1[6, personagens.REI] = "Obrigado!";
 cartaOpc2[6, personagens.REI] = "Eu te disse que estava errada";
-cartaScript[6, personagens.REI] = scrRei1;
+cartaScript[6, personagens.REI] = scrRei7;
 cartaTempo[6, personagens.REI] = 8;
 
 cartaSprite[7, personagens.REI] = personagens.SUCY;
@@ -66,7 +66,7 @@ cartaTexto[7, personagens.REI] = "Vou retirar sua maldição. Meus parabéns rei
 cartaNome[7, personagens.REI] = "Sucy, a bruxa";
 cartaOpc1[7, personagens.REI] = "Muito obrigado!";
 cartaOpc2[7, personagens.REI] = "Já era a hora!";
-cartaScript[7, personagens.REI] = scrRei1;
+cartaScript[7, personagens.REI] = scrRei8;
 cartaTempo[7, personagens.REI] = 8;
 
 cartaSprite[8, personagens.REI] = personagens.SUCY;
@@ -74,7 +74,7 @@ cartaTexto[8, personagens.REI] = "Pelo jeito, você fez não fez nada aqui. Tudo
 cartaNome[8, personagens.REI] = "Sucy, a bruxa";
 cartaOpc1[8, personagens.REI] = "Eu fui um ótimo rei!";
 cartaOpc2[8, personagens.REI] = "Você está errada!";
-cartaScript[8, personagens.REI] = scrRei1;
+cartaScript[8, personagens.REI] = scrRei9;
 cartaTempo[8, personagens.REI] = 8;
 
 cartaSprite[9, personagens.REI] = personagens.SUCY;
@@ -82,7 +82,7 @@ cartaTexto[9, personagens.REI] = "Deveria ter passado sua coroa adiante, talvez 
 cartaNome[9, personagens.REI] = "Sucy, a bruxa";
 cartaOpc1[9, personagens.REI] = "Nããããoo";
 cartaOpc2[9, personagens.REI] = "Você vai pagar por isso!";
-cartaScript[9, personagens.REI] = scrRei1;
+cartaScript[9, personagens.REI] = scrRei10;
 cartaTempo[9, personagens.REI] = 8;
 
 #endregion
@@ -604,7 +604,7 @@ cartaTempo[3, personagens.ARTHUR] = 8;
 cartaSprite[4, personagens.ARTHUR] = personagens.ARTHUR;
 cartaTexto[4, personagens.ARTHUR] = "Meu rei, sei que não é muito chegado nessas coisa, mas o que acha da ideia de inaugurar uma igreja? Acho que muita gente gostaria!";
 cartaNome[4, personagens.ARTHUR] = "Arthur, a criança";
-cartaOpc1[4, personagens.ARTHUR] = "Inalgurar";
+cartaOpc1[4, personagens.ARTHUR] = "Nova igreja";
 cartaOpc2[4, personagens.ARTHUR] = "Sem religião";
 cartaScript[4, personagens.ARTHUR] = scrArthur5;
 cartaTempo[4, personagens.ARTHUR] = 8;
