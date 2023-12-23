@@ -1,0 +1,2 @@
+
+global.reino = 0;
