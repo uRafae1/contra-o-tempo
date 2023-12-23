@@ -82,7 +82,7 @@ function scrRei9() {
 	
 	// Sucy - Pelo jeito, você fez não fez nada aqui. Tudo continua uma porcaria! Que decepção.
 	if (global.opcaoDialogo != 0) {
-		array_set(global.lvlPersonagens, personagens.REI, 7);
+		array_set(global.lvlPersonagens, personagens.REI, 9);
 	}
 	
 }
