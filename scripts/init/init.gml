@@ -17,6 +17,9 @@ global.escolha = -6;
 global.opcaoDialogo = 0;
 global.final = noone;
 
+global.calendarioAno = 0;
+global.calendarioMes = -3;
+
 enum personagens {
 	REI = 0,			// Player
 	JAHA = 1,			// Jaha, o chanceler

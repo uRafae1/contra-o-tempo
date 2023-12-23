@@ -86,6 +86,7 @@ function scrArthur5(){
 		global.addReino += 25;
 		
 	} else if (global.opcaoDialogo = 2) { 
+		array_set(global.lvlPersonagens, personagens.ARTHUR, 5);
 		global.addRespeito -= 10;
 		global.addReino -= 20;
 		
@@ -99,18 +100,20 @@ function scrArthur6(){
 	
 	// Rei, boa parte de nossos suditos estão reclamando dos impostos, poderiamos abaixar um pouco para acalmá los
 	if (global.opcaoDialogo = 1) {
+		array_set(global.lvlPersonagens, personagens.ARTHUR, -1);
 		global.addDinheiro += 20;
 		global.addReino += 15;
 		
 	} else if (global.opcaoDialogo = 2) {
+		array_set(global.lvlPersonagens, personagens.ARTHUR, -1);
 		global.addDinheiro += 20;
 		global.addReino += 15;
 		
 	} else if (global.opcaoDialogo = 3) {
+		array_set(global.lvlPersonagens, personagens.ARTHUR, -1);
 		global.addDinheiro += 10;
 		global.addReino += 10;
 	}
-	array_set(global.lvlPersonagens, personagens.ARTHUR, -1);
 	
 }
 

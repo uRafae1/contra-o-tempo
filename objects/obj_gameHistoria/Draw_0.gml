@@ -36,7 +36,7 @@ if (global.escolha >= 0) {
 	draw_set_valign(fa_middle);
 	draw_set_halign(fa_center);
 	
-	draw_text_transformed(room_width/2, 86, $"Ano {calendarioAno}, Mês {calendarioMes}", 0.7, 0.7, 0);
+	draw_text_transformed(room_width/2, 86, $"Ano {global.calendarioAno}, Mês {global.calendarioMes}", 0.7, 0.7, 0);
 	
 	draw_set_font(-1);
 	draw_set_valign(-1);
