@@ -5,3 +5,4 @@ function menuTransicao(destino) {
 	_transicao.destino = destino;
 
 }
+

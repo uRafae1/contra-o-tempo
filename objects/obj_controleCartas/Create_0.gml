@@ -6,76 +6,84 @@ escolhaAtual = 0;
 #region Cartas da história inicial
 
 cartaSprite[0, personagens.REI] = personagens.JAHA;
-cartaTexto[0, personagens.REI] = "Aceitaria uma xícara de café? Para começar o ano bem meu senhor.";
+cartaTexto[0, personagens.REI] = "Seja bem vindo! A partir de agora você é o nosso rei! Siga tomando decisões ou ignorando as pessoas.";
 cartaNome[0, personagens.REI] = "Jaha, o chanceler";
-cartaOpc1[0, personagens.REI] = "Sim, obrigado";
-cartaOpc2[0, personagens.REI] = "Não";
+cartaOpc1[0, personagens.REI] = "Entendido";
+cartaOpc2[0, personagens.REI] = "Certo";
 cartaScript[0, personagens.REI] = scrRei1;
 cartaTempo[0, personagens.REI] = 8;
 
-cartaSprite[1, personagens.REI] = personagens.SUCY;
-cartaTexto[1, personagens.REI] = "Decem annos maledicere magica. AHAHAHA, você agora está sobre meu controle! Pelo menos pelos seus dez anos restantes.";
-cartaNome[1, personagens.REI] = "Sucy, a bruxa";
-cartaOpc1[1, personagens.REI] = "O que você fez comigo?";
-cartaOpc2[1, personagens.REI] = "Como assim sobre controle?";
+cartaSprite[1, personagens.REI] = personagens.JAHA;
+cartaTexto[1, personagens.REI] = "Mas tome cuidado, toda ação gera uma consequência. Tente ser o melhor rei e coide bem de seus recursos!";
+cartaNome[1, personagens.REI] = "Jaha, o chanceler";
+cartaOpc1[1, personagens.REI] = "Entendi!";
+cartaOpc2[1, personagens.REI] = "Ok, Jaha";
 cartaScript[1, personagens.REI] = scrRei2;
 cartaTempo[1, personagens.REI] = 8;
 
 cartaSprite[2, personagens.REI] = personagens.SUCY;
-cartaTexto[2, personagens.REI] = "Acho você um péssimo rei, então te darei dez anos para provar o contrário, ou você vai virar saudade!";
+cartaTexto[2, personagens.REI] = "Decem annos maledicere magica. AHAHAHA, você agora está sobre meu controle! Pelo menos pelos seus dez anos restantes.";
 cartaNome[2, personagens.REI] = "Sucy, a bruxa";
-cartaOpc1[2, personagens.REI] = "Sua maldita!";
-cartaOpc2[2, personagens.REI] = "Tire isso de mim!";
+cartaOpc1[2, personagens.REI] = "O que você fez comigo?";
+cartaOpc2[2, personagens.REI] = "Como assim sobre controle?";
 cartaScript[2, personagens.REI] = scrRei3;
 cartaTempo[2, personagens.REI] = 8;
 
 cartaSprite[3, personagens.REI] = personagens.SUCY;
-cartaTexto[3, personagens.REI] = "Te vejo em dez anos meu caro amigo. IHIHIHIHI.";
+cartaTexto[3, personagens.REI] = "Acho você um péssimo rei, então te darei dez anos para provar o contrário, ou você vai virar saudade!";
 cartaNome[3, personagens.REI] = "Sucy, a bruxa";
-cartaOpc1[3, personagens.REI] = "Nããããããoo";
-cartaOpc2[3, personagens.REI] = "Você verá";
+cartaOpc1[3, personagens.REI] = "Sua maldita!";
+cartaOpc2[3, personagens.REI] = "Tire isso de mim!";
 cartaScript[3, personagens.REI] = scrRei4;
 cartaTempo[3, personagens.REI] = 8;
 
 cartaSprite[4, personagens.REI] = personagens.SUCY;
-cartaTexto[4, personagens.REI] = "Então nos encontramos novamente! Deixe-me analisar seu progresso.";
+cartaTexto[4, personagens.REI] = "Te vejo em dez anos meu caro amigo. IHIHIHIHI.";
 cartaNome[4, personagens.REI] = "Sucy, a bruxa";
-cartaOpc1[4, personagens.REI] = "Eu fui um ótimo rei";
-cartaOpc2[4, personagens.REI] = "Você verá que estava errada!";
+cartaOpc1[4, personagens.REI] = "Nããããããoo";
+cartaOpc2[4, personagens.REI] = "Você verá";
 cartaScript[4, personagens.REI] = scrRei5;
 cartaTempo[4, personagens.REI] = 8;
 
 cartaSprite[5, personagens.REI] = personagens.SUCY;
-cartaTexto[5, personagens.REI] = "Pelo jeito, você fez um bom trabalho por aqui. Manteve tudo em ordem e melhorou muita coisa! Meus parabéns.";
+cartaTexto[5, personagens.REI] = "Então nos encontramos novamente! Deixe-me analisar seu progresso.";
 cartaNome[5, personagens.REI] = "Sucy, a bruxa";
-cartaOpc1[5, personagens.REI] = "Obrigado!";
-cartaOpc2[5, personagens.REI] = "Eu te disse que estava errada";
-cartaScript[5, personagens.REI] = scrRei1;
+cartaOpc1[5, personagens.REI] = "Eu fui um ótimo rei";
+cartaOpc2[5, personagens.REI] = "Você verá que estava errada!";
+cartaScript[5, personagens.REI] = scrRei6;
 cartaTempo[5, personagens.REI] = 8;
 
 cartaSprite[6, personagens.REI] = personagens.SUCY;
-cartaTexto[6, personagens.REI] = "Vou retirar sua maldição. Meus parabéns reizinho.";
+cartaTexto[6, personagens.REI] = "Pelo jeito, você fez um bom trabalho por aqui. Manteve tudo em ordem e melhorou muita coisa! Meus parabéns.";
 cartaNome[6, personagens.REI] = "Sucy, a bruxa";
-cartaOpc1[6, personagens.REI] = "Muito obrigado!";
-cartaOpc2[6, personagens.REI] = "Já era a hora!";
+cartaOpc1[6, personagens.REI] = "Obrigado!";
+cartaOpc2[6, personagens.REI] = "Eu te disse que estava errada";
 cartaScript[6, personagens.REI] = scrRei1;
 cartaTempo[6, personagens.REI] = 8;
 
 cartaSprite[7, personagens.REI] = personagens.SUCY;
-cartaTexto[7, personagens.REI] = "Pelo jeito, você fez não fez nada aqui. Tudo continua uma porcaria! Que decepção.";
+cartaTexto[7, personagens.REI] = "Vou retirar sua maldição. Meus parabéns reizinho.";
 cartaNome[7, personagens.REI] = "Sucy, a bruxa";
-cartaOpc1[7, personagens.REI] = "Eu fui um ótimo rei!";
-cartaOpc2[7, personagens.REI] = "Você está errada!";
+cartaOpc1[7, personagens.REI] = "Muito obrigado!";
+cartaOpc2[7, personagens.REI] = "Já era a hora!";
 cartaScript[7, personagens.REI] = scrRei1;
 cartaTempo[7, personagens.REI] = 8;
 
 cartaSprite[8, personagens.REI] = personagens.SUCY;
-cartaTexto[8, personagens.REI] = "Deveria ter passado sua coroa adiante, talvez arrumassem suas cagadas. Você irá apodrecer seu miserável.";
+cartaTexto[8, personagens.REI] = "Pelo jeito, você fez não fez nada aqui. Tudo continua uma porcaria! Que decepção.";
 cartaNome[8, personagens.REI] = "Sucy, a bruxa";
-cartaOpc1[8, personagens.REI] = "Nããããoo";
-cartaOpc2[8, personagens.REI] = "Você vai pagar por isso!";
+cartaOpc1[8, personagens.REI] = "Eu fui um ótimo rei!";
+cartaOpc2[8, personagens.REI] = "Você está errada!";
 cartaScript[8, personagens.REI] = scrRei1;
 cartaTempo[8, personagens.REI] = 8;
+
+cartaSprite[9, personagens.REI] = personagens.SUCY;
+cartaTexto[9, personagens.REI] = "Deveria ter passado sua coroa adiante, talvez arrumassem suas cagadas. Você irá apodrecer seu miserável.";
+cartaNome[9, personagens.REI] = "Sucy, a bruxa";
+cartaOpc1[9, personagens.REI] = "Nããããoo";
+cartaOpc2[9, personagens.REI] = "Você vai pagar por isso!";
+cartaScript[9, personagens.REI] = scrRei1;
+cartaTempo[9, personagens.REI] = 8;
 
 #endregion
 
@@ -222,15 +230,6 @@ cartaOpc1[11, personagens.GORDON] = "....";
 cartaOpc2[11, personagens.GORDON] = "....";
 cartaScript[11, personagens.GORDON] = scrGordon12;
 cartaTempo[11, personagens.GORDON] = 10;
-
-// Fala para quando o dinheiro acabar
-cartaSprite[10, personagens.GORDON] = personagens.GORDON;
-cartaTexto[10, personagens.GORDON] = "Senhor, estamos falidos, reinos vizinhos não querem doar para nois. O que fazemos, o que devemos fazer?.";
-cartaNome[10, personagens.GORDON] = "Gordon, o tesoureiro";
-cartaOpc1[10, personagens.GORDON] = "Nada, vou morrer mesmo";
-cartaOpc2[10, personagens.GORDON] = "Desculpe, eu tentei";
-cartaScript[10, personagens.GORDON] = scrGordon13;
-cartaTempo[10, personagens.GORDON] = 10;
 
 #endregion
 
