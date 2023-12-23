@@ -12,7 +12,7 @@
   "option_windows_display_cursor": false,
   "option_windows_display_name": "Time of Thrones",
   "option_windows_enable_steam": false,
-  "option_windows_executable_name": "timeofthrones.exe",
+  "option_windows_executable_name": "Time of Thrones.exe",
   "option_windows_icon": "icons/icon.ico",
   "option_windows_installer_finished": "${base_options_dir}/windows/installer/finished.bmp",
   "option_windows_installer_header": "${base_options_dir}/windows/installer/header.bmp",
